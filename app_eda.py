@@ -1,7 +1,5 @@
 import streamlit as st
 import pandas as pd
-from app8 import main
-
 
 def run_eda_app ():
 
