@@ -10,6 +10,10 @@ def main():
 
     st.dataframe(df)
 
+    number_of_species = df['species'].nunique()
+
+    st.text('아이리스 꽃의 종류는 총 '+ str(number_of_species) + '가지 입니다.')
+
 
 if __name__ == '__main__' :
     main()
