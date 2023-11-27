@@ -46,8 +46,15 @@ def main() :
         df_2017_2018 = df.loc[my_filter,]
         df3= df_2017_2018[choice_list]
         st.bar_chart(data=df3)
+    
+    st.subheader('2번째')
+    
+    
 
     df_iris=pd.read_csv('./data/iris.csv')
+
+    st.dataframe(df_iris)
+    
 
     # 두 컬럼간의 관계를 표시하되
     # 종 정보까지 표시하는 방법
