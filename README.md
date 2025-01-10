@@ -1,4 +1,4 @@
-# web_dashboard1
-스트림릿문법
+# Streamlit
 
-기본문법 + 차트 설명
+
+Streamlitの基本的な文法とチャートに関する説明
